@@ -1,0 +1,116 @@
+{
+    "atmelsame54":{
+        "path":"armcmx/atmelsame54",
+        "vhal":{
+            "VHAL_I2C": {
+                "src": ["vhal_i2c.c", "sdk/hal/src/hal_i2c_m_sync.c"],
+                "inc":
+                [
+                    ".", 
+                    "inc",
+                    "sdk/hal/src",
+                    "sdk/hal/include",
+                    "sdk/hal/utils/src",
+                    "sdk/hal/utils/include",
+                    "sdk/hpl/sercom",
+                    "sdk/hpl/port",
+                    "sdk/hpl/pm",
+                    "sdk/hpl/oscctrl",
+                    "sdk/hpl/osc32kctrl",
+                    "sdk/hpl/mclk",
+                    "sdk/hpl/gclk",
+                    "sdk/hpl/dmac",
+                    "sdk/hpl/core",
+                    "sdk/hri",
+                    "sdk/include",
+                    "sdk/include/component",
+                    "sdk/config",
+                    "sdk/CMSIS/Core/Include"
+                ],
+                "defs":["VHAL_I2C"]
+            },
+            "VHAL_SPI": {
+                "src": ["vhal_spi.c", "sdk/hal/src/hal_spi_m_sync.c"],
+                "inc":
+                [
+                    ".", 
+                    "inc",
+                    "sdk/hal/src",
+                    "sdk/hal/include",
+                    "sdk/hal/utils/src",
+                    "asf/common/services/clock/samg",
+                    "sdk/hal/utils/include",
+                    "sdk/hpl/sercom",
+                    "sdk/hpl/port",
+                    "sdk/hpl/oscctrl",
+                    "sdk/hpl/osc32kctrl",
+                    "sdk/hpl/mclk",
+                    "sdk/hpl/gclk",
+                    "sdk/hpl/dmac",
+                    "sdk/hpl/core",
+                    "sdk/hri",
+                    "sdk/include",
+                    "sdk/include/component",
+                    "sdk/config",
+                    "sdk/CMSIS/Core/Include"
+                ],
+                "defs":["VHAL_SPI"]
+            },
+            "VHAL_PWM": {
+                "src": ["vhal_pwm.c", "sdk/hal/src/hal_pwm.c"],
+                "inc":
+                [
+                    ".", 
+                    "inc",
+                    "sdk/hal/src",
+                    "sdk/hal/include",
+                    "sdk/hal/utils/src",
+                    "sdk/hal/utils/include",
+                    "sdk/hpl/tcc",
+                    "sdk/hpl/tc",
+                    "sdk/hpl/port",
+                    "sdk/hpl/oscctrl",
+                    "sdk/hpl/osc32kctrl",
+                    "sdk/hpl/mclk",
+                    "sdk/hpl/gclk",
+                    "sdk/hpl/dmac",
+                    "sdk/hpl/core",
+                    "sdk/hri",
+                    "sdk/include",
+                    "sdk/include/component",
+                    "sdk/config",
+                    "sdk/CMSIS/Core/Include",
+                    "sdk/include/instance"
+                ],
+                "defs":["VHAL_PWM"]
+            },
+            "VHAL_ADC": {
+                "src": ["vhal_adc.c", "sdk/hal/src/hal_adc_sync.c"],
+                "inc":
+                [
+                    ".", 
+                    "inc",
+                    "sdk/hal/src",
+                    "sdk/hal/include",
+                    "sdk/hal/utils/src",
+                    "asf/common/services/clock/samg",
+                    "sdk/hal/utils/include",
+                    "sdk/hpl/adc",
+                    "sdk/hpl/port",
+                    "sdk/hpl/oscctrl",
+                    "sdk/hpl/osc32kctrl",
+                    "sdk/hpl/mclk",
+                    "sdk/hpl/gclk",
+                    "sdk/hpl/dmac",
+                    "sdk/hpl/core",
+                    "sdk/hri",
+                    "sdk/include",
+                    "sdk/include/component",
+                    "sdk/config",
+                    "sdk/CMSIS/Core/Include"
+                ],
+                "defs":["VHAL_ADC"]
+            }
+        }
+    }
+}
